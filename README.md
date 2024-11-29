@@ -1,5 +1,5 @@
 # WEBSITE_BANK_MANAGEMENT
-Aapke liye ek **LinkedIn post** ka example tayar kar raha hoon jo aap apni bank management website ke baare mein share kar sakte hain. Yeh post aap apne LinkedIn profile par publish kar sakte hain.
+
 
 ### LinkedIn Post Example:
 
