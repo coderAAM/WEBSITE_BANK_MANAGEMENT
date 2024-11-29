@@ -1,0 +1,134 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.create-account-form, .deposit-form{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.create-account-form h2, .deposit-form h2{
+  margin-top: 0;
+}
+.create-account-form label, .deposit-form label{
+  display: block;
+  margin-bottom: 5px;
+}
+.create-account-form input, .deposit-form input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.create-account-form button, .deposit-form button{
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.create-account-form button:hover, .deposit-form button:hover{
+  background-color: #45a049;
+}
+.account-list{
+  margin-top: 20px;
+}
+.account-list h2{
+  margin-top: 0;
+}
+.account-list ul{
+  list-style-type: none;
+  padding: 0;
+}
+.account-list li{
+  margin-bottom: 10px;
+}
+.account-list li span{
+  font-weight: bold;
+}
+.transaction-history{
+  margin-top: 20px;
+}
+.transaction-history h2{
+  margin-top: 0;
+}
+.transaction-history table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.transaction-history th, .transaction-history td{
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+.transaction-history th{
+  background-color: #f2f2f2;
+}
+.transaction-history td:last-child{
+  text-align: right;
+}
+.withdraw-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.withdraw-form h2 {
+  margin-top: 0;
+}
+
+.withdraw-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.withdraw-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.withdraw-form button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.withdraw-form button:hover {
+  background-color: #45a049;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    max-width: 95%;
+    padding: 10px;
+  }
+  .create-account-form, .deposit-form, .withdraw-form {
+    padding: 15px;
+  }
+  .create-account-form input, .deposit-form input, .withdraw-form input {
+    

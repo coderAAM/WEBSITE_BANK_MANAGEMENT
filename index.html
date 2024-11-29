@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+ 
+ 
+<body>
+  <h1>Bank Management System</h1>
+  <div class="container">
+    <h2>Create Account</h2>
+    <form id="createAccountForm">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" required><br>
+      <label for="accountNumber">Account Number:</label>
+      <input type="text" id="accountNumber" required><br>
+      <label for="balance">Balance:</label>
+      <input type="number" id="balance" required><br>
+      <button type="submit">Create Account</button>
+    </form>
+  </div>
+  <div class="container">
+    <h2>Deposit</h2>
+    <form id="depositForm">
+      <label for="accountNumber">Account Number:</label>
+      <input type="text" id="accountNumber" required>
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" required>
+      <button type="submit">Deposit</button>
+      </form>
+  </div>
+  <div class="container">
+    <h2>Account List</h2>
+    <ul id="accountList">
+      
+      <li>Account 1: $100</li>
+      <li>Account 2: $200</li>
+      <li>Account 3: $300</li>
+    </ul>
+    </ul>
+    
+    <div class="container">
+      <h2>Withdraw</h2>
+      <form id="withdrawForm">
+        <label for="accountNumber">Account Number:</label>
+        <input type="text" id="accountNumber" required>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" required>
+        <button type="submit">Withdraw</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Transaction History</h2>
+    <table id="transactionHistory">
+      <thead>
+        <tr>
+          <th>Account Number</th>
+          <th>Transaction Type</th>
+          <th>Amount</th>
+          <th>Balance</th>
+        </tr>
+
+       
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
